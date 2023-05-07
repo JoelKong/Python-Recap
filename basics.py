@@ -40,3 +40,16 @@ my_dict.items() #return tuple
 t = (1,2,2,3)
 t.count(2) # returns how many times 2 appears
 t.index('a') #returns index when first encounter
+
+my_set = set()
+my_set.add(1)
+my_set.add(2) #{1,2} unique values
+
+myfile = open('myfile.txt')
+myfile.read()
+myfile.seek(0) #can call .read again after seek
+myfile.readlines() #create lists based off next line
+myfile.close()
+with open('myfile.txt', mode='w') as my_new_file:
+    contents = my_new_file.read()
+myfile.write('hi')
