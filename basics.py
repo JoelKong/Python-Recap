@@ -30,3 +30,13 @@ new_list.pop(-1)
 new_list.append(6)
 new_list.sort() # auto sort
 new_list.reverse()
+
+my_dict = {'key1': 2, 'key2': 3}
+my_dict['key1']
+my_dict.keys()
+my_dict.values()
+my_dict.items() #return tuple
+
+t = (1,2,2,3)
+t.count(2) # returns how many times 2 appears
+t.index('a') #returns index when first encounter
